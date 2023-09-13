@@ -95,8 +95,10 @@ select max(SALARY) from EMPLOYEES;
 select max(salary) from EMPLOYEES
 where salary !=(select max(SALARY) from EMPLOYEES) ;
 
-select distinct salary from EMPLOYEES
-order by salary desc;
+select  distinct salary from EMPLOYEES order by salary desc ;
+
+select min(salary) from (select  distinct salary from EMPLOYEES order by salary desc) where ROWNUM <= 7;
+
 
 
 
@@ -114,18 +116,95 @@ select FIRST_NAME, substr(FIRST_NAME,1,3) from EMPLOYEES;
 select FIRST_NAME, substr(FIRST_NAME,2,3) from EMPLOYEES;
 
 --init cap
-select initcap(email) from EMPLOYEES;
+select email from EMPLOYEES;
+
+
+select distinct salary from EMPLOYEES
+order by SALARY desc;
+
+
+--view
+create view captilized_email as select email,initcap(email) as email_new from EMPLOYEES;
+
+
+--joins
+-- (INNER) JOIN: Returns records that have matching values in both tables
+-- LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+-- RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+-- FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+--inner join
+select * from EMPLOYEES;
+select * from DEPARTMENTS;
+
+select DEPARTMENT_NAME, JOB_ID from EMPLOYEES
+inner join DEPARTMENTS
+on EMPLOYEES.DEPARTMENT_ID = DEPARTMENTS.DEPARTMENT_ID;
+
+-- left outer join
+select FIRST_NAME,LAST_NAME , DEPARTMENT_NAME from EMPLOYEES
+left outer join DEPARTMENTS
+on EMPLOYEES.DEPARTMENT_ID = DEPARTMENTS.DEPARTMENT_ID;
+
+
+--right join
+select FIRST_NAME, END_DATE from EMPLOYEES
+right join JOB_HISTORY
+on EMPLOYEES.EMPLOYEE_ID = JOB_HISTORY.EMPLOYEE_ID;
+
+select END_DATE from JOB_HISTORY;
+
+--outer join
+select city, DEPARTMENT_NAME from LOCATIONS
+outer join DEPARTMENTS
+on outer.LOCATION_ID = DEPARTMENTS.LOCATION_ID;
+
+
+create table Teacher(
+    id integer primary key ,
+    name varchar(25),
+    branch varchar(40)
+
+);
+
+select * from TEACHER;
+
+insert into TEACHER values (1,'Mehmet','API');
+insert into TEACHER values (2,'Adam','Java');
+
+update TEACHER
+set branch = 'Selenium'
+where id=2;
+
+delete TEACHER
+where id = 2;
+
+
+alter table TEACHER
+add salary integer;
+
+select * from TEACHER;
+
+alter table TEACHER
+rename column  salary to newSalary;
+
+alter table TEACHER drop column newSalary;
+
+truncate table TEACHER;
+
+drop table TEACHER;
 
 
 
+--set opertors
+--union
+select FIRST_NAME from EMPLOYEES
+union
+select city from LOCATIONS;
 
-
-
-
-
-
-
-
+select FIRST_NAME from EMPLOYEES
+union all
+select city from LOCATIONS;
 
 
 

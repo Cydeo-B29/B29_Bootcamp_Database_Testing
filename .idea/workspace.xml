@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87fc2ef-0e6f-4cd9-915f-eeaf2de41b8d" name="Changes" comment="" />
+    <list default="true" id="c87fc2ef-0e6f-4cd9-915f-eeaf2de41b8d" name="Changes" comment="review is continuing...">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JDBCConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e73e351-3485-406a-92a7-33e404d0b641.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e73e351-3485-406a-92a7-33e404d0b641.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e73e351-3485-406a-92a7-33e404d0b641/storage_v2/_src_/schema/HR.CgkAAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e73e351-3485-406a-92a7-33e404d0b641/storage_v2/_src_/schema/HR.CgkAAA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sqlReview.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sqlReview.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,9 +42,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="JDBCConnectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBCConnectionTest" />
+      <module name="B29_Bootcamp_Database_Testing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JDBCConnectionTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +76,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694613390996</updated>
-      <workItem from="1694613392053" duration="3000" />
+      <workItem from="1694613392053" duration="15175000" />
     </task>
+    <task id="LOCAL-00001" summary="project created.">
+      <option name="closed" value="true" />
+      <created>1694613669151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694613669151</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sql is started.">
+      <option name="closed" value="true" />
+      <created>1694620106003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620106003</updated>
+    </task>
+    <task id="LOCAL-00003" summary="review is continuing...">
+      <option name="closed" value="true" />
+      <created>1694624022129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694624022129</updated>
+    </task>
+    <task id="LOCAL-00004" summary="review is continuing...">
+      <option name="closed" value="true" />
+      <created>1694624073530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694624073530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project created." />
+    <MESSAGE value="sql is started." />
+    <MESSAGE value="review is continuing..." />
+    <option name="LAST_COMMIT_MESSAGE" value="review is continuing..." />
   </component>
 </project>
