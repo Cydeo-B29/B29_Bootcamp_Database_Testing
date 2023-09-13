@@ -117,7 +117,6 @@ select FIRST_NAME, substr(FIRST_NAME,2,3) from EMPLOYEES;
 select initcap(email) from EMPLOYEES;
 
 
-select first_name from EMPLOYEES where SALARY =(select min(SALARY) from (select distinct SALARY from EMPLOYEES order by SALARY desc )  where rownum<8);
 
 
 
