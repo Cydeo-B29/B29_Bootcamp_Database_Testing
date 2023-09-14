@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87fc2ef-0e6f-4cd9-915f-eeaf2de41b8d" name="Changes" comment="review is continuing...">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBCConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e73e351-3485-406a-92a7-33e404d0b641.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e73e351-3485-406a-92a7-33e404d0b641.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e73e351-3485-406a-92a7-33e404d0b641/storage_v2/_src_/schema/HR.CgkAAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e73e351-3485-406a-92a7-33e404d0b641/storage_v2/_src_/schema/HR.CgkAAA.zip" afterDir="false" />
+    <list default="true" id="c87fc2ef-0e6f-4cd9-915f-eeaf2de41b8d" name="Changes" comment="jdbc is added.">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sqlReview.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sqlReview.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -76,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694613390996</updated>
-      <workItem from="1694613392053" duration="15175000" />
+      <workItem from="1694613392053" duration="16279000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -110,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694624073530</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jdbc is added.">
+      <option name="closed" value="true" />
+      <created>1694634329200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694634329200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +138,7 @@
     <MESSAGE value="project created." />
     <MESSAGE value="sql is started." />
     <MESSAGE value="review is continuing..." />
-    <option name="LAST_COMMIT_MESSAGE" value="review is continuing..." />
+    <MESSAGE value="jdbc is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc is added." />
   </component>
 </project>
